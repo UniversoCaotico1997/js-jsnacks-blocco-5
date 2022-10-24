@@ -55,6 +55,6 @@ const catalogoZucchine = [
     },
 ]
 
-const totalePeso = catalogoZucchine.filter((zucchina)=>{
-    zucchina.peso
+catalogoZucchine.forEach((zucchina)=>{
+    console.log(zucchina.peso);
 })
