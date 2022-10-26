@@ -2,7 +2,7 @@
 // per ognuna varietà, peso e lunghezza.
 // Calcola quanto pesano tutte le zucchine.
 
-const catalogoZucchine = [
+const catalogo = [
     {
         varietà:`zucchinaNera`,
         peso:20,
@@ -61,13 +61,13 @@ const catalogoZucchine = [
 //     somma += zucchina.peso
 // })
 
-function catalogo(catalogoZucchine) {
+function totalePeso(catalogo) {
     let somma = 0 
- catalogoZucchine.forEach((zucchina)=>{
+ catalogo.forEach((zucchina)=>{
     console.log(zucchina.peso);
     somma += zucchina.peso 
 })   
     return somma
 }
 
-console.log(catalogo(catalogoZucchine));
+console.log(totalePeso(catalogo));
