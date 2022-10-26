@@ -61,11 +61,13 @@ const catalogoZucchine = [
 //     somma += zucchina.peso
 // })
 
-function sommaPeso(catalogoZucchine) {
+function catalogo(catalogoZucchine) {
     let somma = 0 
  catalogoZucchine.forEach((zucchina)=>{
     console.log(zucchina.peso);
-    somma += zucchina.peso
+    somma += zucchina.peso 
 })   
+    return somma
 }
 
+console.log(catalogo(catalogoZucchine));
