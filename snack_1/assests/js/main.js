@@ -54,9 +54,18 @@ const catalogoZucchine = [
         lunghezza: 30
     },
 ]
-let somma = 0 
+// let somma = 0 
 
-catalogoZucchine.forEach((zucchina)=>{
+// catalogoZucchine.forEach((zucchina)=>{
+//     console.log(zucchina.peso);
+//     somma += zucchina.peso
+// })
+
+function sommaPeso(catalogoZucchine) {
+    let somma = 0 
+ catalogoZucchine.forEach((zucchina)=>{
     console.log(zucchina.peso);
     somma += zucchina.peso
-})
+})   
+}
+
